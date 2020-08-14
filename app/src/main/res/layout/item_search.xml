@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#333333"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/imgsearch"
+        android:layout_margin="10dp"
+        android:layout_width="100dp"
+        android:layout_height="150dp"></ImageView>
+    <TextView
+        android:textColor="#F6F0F0"
+        android:id="@+id/tensearch"
+        android:layout_toRightOf="@id/imgsearch"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    
+</RelativeLayout>

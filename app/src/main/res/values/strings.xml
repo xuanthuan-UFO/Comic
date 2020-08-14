@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Comic1</string>
+    <string-array name="genres">
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Comedy</item>
+        <item>Demons</item>
+        <item>Drama</item>
+        <item>Ecchi</item>
+        <item>Fantasy</item>
+        <item>Gender Bender</item>
+        <item>Harem</item>
+        <item>Historical</item>
+        <item>Horror</item>
+        <item>Josei</item>
+        <item>Magic</item>
+        <item>Martial Arts</item>
+        <item>Mature</item>
+        <item>Mecha</item>
+        <item>Military</item>
+        <item>Mystery</item>
+        <item>One Shot</item>
+        <item>Romance</item>
+        <item>School Life</item>
+        <item>Sci-Fi</item>
+        <item>Seinen</item>
+        <item>Shoujo</item>
+        <item>Shoujoai</item>
+        <item>Shounen</item>
+        <item>Shounenai</item>
+        <item>Slice of Life</item>
+        <item>Smut</item>
+        <item>Sports</item>
+        <item>Super Power</item>
+        <item>Supernatural</item>
+        <item>Tragedy</item>
+        <item>Vampire</item>
+        <item>Yaoi</item>
+        <item>Yuri</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/item_hinh_library"
+        android:layout_width="170dp"
+        android:layout_height="200dp"></ImageView>
+
+    <TextView
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="#59100F0F"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/item_ten_library"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"></TextView>
+</RelativeLayout>
