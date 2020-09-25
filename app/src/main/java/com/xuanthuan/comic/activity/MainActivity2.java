@@ -68,7 +68,6 @@ Cursor cursor;
         sentdata();// gửi tên truyện đến fragment chapter
         CustomRadioGroup();
 
-        kiemtracheckbox();
 
         viewPager.setOffscreenPageLimit(3);
 
@@ -112,9 +111,6 @@ Cursor cursor;
 
     }
 
-    private void kiemtracheckbox() {
-
-    }
 
     private void customtoolbar() {
         setSupportActionBar(toolbar);

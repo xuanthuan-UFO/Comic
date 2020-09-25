@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         dbLibrary = new DBLibrary(this, "LibraryDB.sqlite", null, 1);
         dbLibrary.queryDATA("CREATE TABLE IF NOT EXISTS LIBRARY(Id INTEGER PRIMARY KEY AUTOINCREMENT, Name VARCHAR, IDtruyen VARCHAR, IMG VARCHAR)");
+        //tìm đường dẫn đến thư mục database
         String pathdb = getDatabasePath("LibraryDB.sqlite").getPath();
         Log.d("duongdan", "onCreate: " + pathdb);
     }
